@@ -144,7 +144,7 @@ cd topi/python; python3 setup.py install; cd ../..
 cd nnvm/python; python3 setup.py install; cd ../..
 ```
 
-3.Install TVM on the target device (ROCKPro64)  
+#### Target device setup (ROCKPro64)  
 
 Install OpenCL driver (only required if model should run on the Mali GPU)
 ```bash
@@ -161,7 +161,7 @@ make runtime -j4
 ```
 add `export PYTHONPATH=$PYTHONPATH:/path/to/tvm/python` to `~.bashrc`
 
-#### PyTorch -> ONNX
+### PyTorch -> ONNX (on Host)
 ```python
 # minimal example code to load a PyTorch model and export it to onnx'
 import onnx
