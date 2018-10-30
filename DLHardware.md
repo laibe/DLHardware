@@ -94,9 +94,9 @@ sudo python3 setup.py install
 
 ```
 
-### Option2 : PyTorch -> ONNX -> TVM 
+### Option 2 : PyTorch -> ONNX -> TVM 
 #### Host machine Setup (macOS)
-1.Ensure cmake, [XCode](https://developer.apple.com/xcode/), [LLVM](http://releases.llvm.org/download.html) and [Anaconda](https://www.anaconda.com/download/#macos) are installed. I recommend installing cmake via [brew](https://brew.sh). 
+1.Ensure cmake, [XCode](https://developer.apple.com/xcode/), [LLVM](http://releases.llvm.org/download.html) and [Anaconda](https://www.anaconda.com/download/#macos) are installed. It is recommended to install cmake via [brew](https://brew.sh). 
 
 2.Install the latest PyTorch nighly build (required for working ONNX export)
 ```bash
